@@ -14,5 +14,4 @@ export default defineConfig({
 	/*   server: {
     open: true,
   }, */
-	base: '/webapp-todo/', // Der Name deines GitHub-Repositories
 });
