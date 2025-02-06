@@ -1,0 +1,34 @@
+.timer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90dvh;
+}
+
+.time {
+	font-size: 8rem;
+	color: cadetblue;
+	margin-bottom: 2rem;
+}
+
+.timer-buttons {
+	display: flex;
+	gap: 2rem;
+}
+
+.timer-button {
+	color: white;
+	background-color: cadetblue;
+	border: none;
+	padding: 10px 20px;
+	width: 100px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	font-family: Helvetica, sans-serif;
+}
+
+.timer-button:hover {
+	background-color: rgb(55, 120, 122);
+}

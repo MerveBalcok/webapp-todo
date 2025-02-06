@@ -1,0 +1,141 @@
+/* General Styles */
+.recipe-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.recipe-item {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 1rem;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s;
+	overflow: hidden;
+}
+
+.recipe-item:hover {
+	transform: scale(1.05);
+}
+
+.recipe-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.recipe-item h3 {
+	font-family: Helvetica, sans-serif;
+	font-size: 1rem;
+	margin: 0.5rem;
+	text-align: center;
+}
+
+/* Recipe Detail Page Styles */
+.recipe-detail-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 4rem 2rem;
+	gap: 2rem;
+}
+
+.recipe-detail-image img {
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.recipe-detail-content {
+	flex: 1;
+}
+
+.recipe-title {
+	margin: 0 0 1rem 0;
+	font-size: 3rem;
+	text-align: left;
+}
+
+.recipe-section {
+	margin-bottom: 2rem;
+	text-align: left;
+	max-width: 50rem;
+}
+
+.recipe-section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.recipe-section ul {
+	padding: 0;
+}
+
+.recipe-section li {
+	margin-bottom: 0.5rem;
+	list-style-type: none;
+}
+
+.recipe-section p,
+.recipe-section ul {
+	max-width: 50rem;
+	line-height: 1.5;
+}
+
+.recipe-error,
+.recipe-loading {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #333;
+}
+
+/* Button styling */
+.recipe-button {
+	color: white;
+	background-color: cadetblue;
+	border: none;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	width: 150px;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 5px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* Remove default link styles */
+.recipe-button a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 1.5;
+}
+
+/* Button Styling */
+.back-button {
+	position: absolute;
+	top: 2rem;
+	left: 16rem;
+	color: white;
+	background-color: cadetblue;
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 5px;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+.recipe-detail-image-container {
+	position: relative;
+	overflow: hidden;
+}
